@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me - Tell us about yourself</title>
+     <link rel="stylesheet" type="text/css" href="style2.css">
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+       <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Navigation section with tabs -->
+    <nav>
+      <button class="button active" onclick="openTab('personal')">Personal</button>
+      <button class="button" onclick="openTab('education')">Education</button>
+      <button class="button" onclick="openTab('work')">Work Experience</button>
+      <button class="button" onclick="openTab('skills')">Skills</button>
+    </nav>
+
+    <!-- Content section with tabbed content -->
+    <main>
+       <h1>About Me</h1>
+      <div id="personal" class="tab active">
+        <h2>Personal Information</h2>
+        <p>Name: Joyce Kerubo Momanyi</p>
+        <p>Age: 23</p>
+        <p>Location: Nairobi</p>
+      </div>
+      <div id="education" class="tab">
+        <h2>Education</h2>
+        <ul>
+          <li>Bachelor's Degree in Geospatial Information Science</li>
+        </ul>
+        <p>Currently studying at JKUAT.</p>
+      </div>
+      <div id="work" class="tab">
+        <h2>Work Experience</h2>
+        <ul>
+          <li>NULL</li>
+        </ul>
+      </div>
+      <div id="skills" class="tab">
+        <h2>Skills</h2>
+        <ul>
+          <li>Programming languages: Java, Python, JavaScript</li>
+          <li>Project management</li>
+          <li>Communication skills</li>
+        </ul>
+      </div>
+    </main>
+
+  </body>
+</html>
